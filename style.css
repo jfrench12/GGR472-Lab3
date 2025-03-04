@@ -1,18 +1,3 @@
-/* Global css variables for the map elements so we can use them in the code and the legend */
-:root {
-    /* Bike station dot colour */
-    --bike-station: #00ff00;
-
-    /* CapPerc 0 */
-    --cap-perc-0: #deecfb;
-    /* CapPerc <=1.54 */
-    --cap-perc-1: #bedaf7;
-    /* CapPerc 1.54 - 3.99 */
-    --cap-perc-2: #7ab3ef;
-    /* CapPerc > 3.99 */
-    --cap-perc-3: #368ce7;
-}
-
 .map-container {
     position: absolute;
     top: 0;
