@@ -207,7 +207,7 @@ map.on("mouseleave", "neighbourhoods-layer", () => {
 CREATE LEGEND IN JAVASCRIPT
 --------------------------------------------------------------------*/
 //Declare array variables for labels and colours
-const legendlabels = ["0", "0-1.54", "1.55-3.99", "4-24.66"];
+const legendlabels = ["0", "0.01-1.54", "1.55-3.99", "4-24.66"];
 
 //Declare legend variable using legend div tag
 const legend = document.getElementById("legend");
