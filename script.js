@@ -3,8 +3,8 @@
 const neighbourhoodsPromise = (async function downloadNeighbourhoods() {
 	try {
 		const response = await fetch(
-			// TODO replace with actual url
-			""
+			// Use GitPages URL
+			"https://jfrench12.github.io/GGR472-Lab3/NeighbourhoodsWithCentroids.geojson"
 		);
 		if (!response.ok) {
 			throw new Error("Response was not ok loading json data");
