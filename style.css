@@ -88,13 +88,3 @@ form {
 #boundaryselect {
     width: 240px;
 }
-
-.station-name {
-    font-weight: 600;
-}
-
-.center {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
